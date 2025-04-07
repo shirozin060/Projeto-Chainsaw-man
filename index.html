@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do Zero ao Programador Contratado - Shainsaw man</title>
+    <link rel="shortcut icon" href="src/imagens/favicon-16x16-novo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/makima.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imagens/makima-mobile.jpg" alt="Personagem makima">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Makima</h2>
+                <p class="descricao">Makima é uma das personagens mais enigmáticas e poderosas de Chainsaw Man
+                    (mangá/anime criado por Tatsuki Fujimoto). Ela é uma figura central na trama, cercada de mistério,
+                    manipulação e uma aura de autoridade inquestionável.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/denji.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/denji-mobile.png" alt="Personagem denji" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Denji</h2>
+                <p class="descricao">Sua vida foi sempre uma corda bamba entre a fome e o abandono. O que nasce quando
+                    você ensina um animal faminto a fingir ser humano? Seus sonhos são tão pequenos que cabem no bolso
+                    rasgado de uma calça suja - um pedaço de pão, uma mão quente, alguém que lembre seu nome.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/power.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/power-mobile.png" alt="Personagem power" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Power</h2>
+                <p class="descricao">A demônia do sangue que finge ser humana. Seu egoísmo e infantilidade escondem um
+                    vazio que só Denji preenche. Seu design (chifres desalinhados, sorriso afiado) é o caos em forma de
+                    garota.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/Aki-Hayakawa.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/Aki-Hayakawa-mobile.jpg" alt="Personagem aki-hayakawa" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Aki Hayakawa</h2>
+                <p class="descricao">Ele carregava seus mortos nas costas como um casaco pesado demais para o verão.
+                    Cada cigarro aceso era uma pequena cerimônia fúnebre, cada demônio morto uma tentativa desesperada
+                    de apagar o fogo interno.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/Himeno.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/Himeno-mobile.jpg" alt="Personagem himeno" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Himeno</h2>
+                <p class="descricao">Himeneno não amava - ela se afogava em pessoas como quem bebe whisky barato:
+                    rápido, sem prazer, só para esquecer o gosto da própria boca. Seu olho perdido era a menor de suas
+                    ausências. Quando se sacrificou por Aki, foi menos por amor e mais pelo vício de ter algo (alguém)
+                    para segurar na hora da queda.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao makima selecionado">
+                <img src="./src/imagens/makima-icone.png" alt="Ícone makima">
+            </button>
+        </li>
+        <li>
+            <button class="botao denji">
+                <img src="./src/imagens/denji-icone.png" alt="Ícone denji" />
+            </button>
+        </li>
+        <li>
+            <button class="botao power">
+                <img src="./src/imagens/power-icone.png" alt="Ícone power" />
+            </button>
+        </li>
+        <li>
+            <button class="botao aki-hayakawa">
+                <img src="./src/imagens/Aki-Hayakawa-icone.png" alt="Ícone aki-hayakawa" />
+            </button>
+        </li>
+        <li>
+            <button class="botao himeno">
+                <img src="./src/imagens/Himeno-icone.png" alt="Ícone himeno" />
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
