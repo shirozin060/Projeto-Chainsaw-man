@@ -88,22 +88,64 @@ main .personagem .imagem {
   box-shadow: 0 0 10px #d9d9d9;
 }
 
-.botoes .botao.cyberstorm.selecionado {
-  box-shadow: 0 0 10px #47ffc5;
+.botoes .botao.makima.selecionado {
+  box-shadow: 0 0 10px #760e0e;
 }
 
-.botoes .botao.codepixie.selecionado {
-  box-shadow: 0 0 10px #9747ff;
+.botoes .botao.denji.selecionado {
+  box-shadow: 0 0 10px #681010;
 }
 
-.botoes .botao.hexblade.selecionado {
-  box-shadow: 0 0 10px #ffa947;
+.botoes .botao.power.selecionado {
+  box-shadow: 0 0 10px #ff478a;
 }
 
-.botoes .botao.neonpulse.selecionado {
+.botoes .botao.aki-hayakawa.selecionado {
   box-shadow: 0 0 10px #e4309a;
 }
 
-.botoes .botao.codebreaker.selecionado {
-  box-shadow: 0 0 10px #fff047;
+.botoes .botao.himeno.selecionado {
+  box-shadow: 0 0 10px #d9d9d9;
+}
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  margin-top: 40px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+  color: white;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.rodape a {
+  color: #ff5555;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  text-decoration: underline;
+}
+
+footer.rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
